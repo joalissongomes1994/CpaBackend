@@ -7,7 +7,10 @@ class News extends Model {
       news_headline: Sequelize.STRING,
       brief_description: Sequelize.STRING,
       full_description: Sequelize.STRING,
-      category: Sequelize.STRING
+      category: Sequelize.STRING,
+      event_title: Sequelize.STRING,
+      event_address: Sequelize.STRING,
+      event_description: Sequelize.STRING  
     },
     {
       sequelize,

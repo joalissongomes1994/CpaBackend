@@ -25,6 +25,15 @@ module.exports = {
       category: {
         type: Sequelize.STRING,
         allowNull: false
+      }, 
+      event_title: {
+        type: Sequelize.STRING
+      },
+      event_address: {
+        type: Sequelize.STRING
+      },
+      event_description: {
+        type: Sequelize.STRING
       },
       created_at: {
         type: Sequelize.DATE,

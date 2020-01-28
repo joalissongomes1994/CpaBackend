@@ -3,6 +3,7 @@ import NewsController from './app/controllers/NewsController';
 
 const routes = new Router();
 
+//rotas da news
 routes.post('/news', NewsController.store);
 routes.get('/news', NewsController.show);
 routes.put('/news/', NewsController.update);
